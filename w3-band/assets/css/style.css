@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark {
+    background-color: black;
+    color: #fff;
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    position: relative;
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    color: #fff;
+}
+
+#nav > li > a {
+    text-transform: uppercase;
+}
+
+#nav > li:hover > a,
+#subnav > li:hover > a {
+    color: black;
+    background-color: #ccc;
+}
+
+#subnav {
+    display: none;
+    position: absolute;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+#nav > li:hover > #subnav {
+    display: block;
+}
+
+#subnav li {
+    display: block;
+    background-color: #fff;
+}
+
+#subnav li a {
+    width: 100%;
+    color: black;
+}
+
+.search-btn {
+    float: right;
+    padding: 15px 28px;
+    color: #fff;
+}
+
+.search-btn:hover {
+    background-color: #f44336;
+}
+
+.wraper {
+    max-width:2000px;
+    margin: 46px auto;
+}
+
+#slider {
+    position: relative;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+#slider .text-content .text-heading {
+    padding-bottom: 20px;
+}
+
+#content {
+    padding: 64px 16px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#content .head-content {
+    text-align: center;
+}
+
+#content .head-content .head-content-1 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+#content .head-content .head-content-2 {
+    margin: 15px 0;
+}
+
+#content .body-content .introduce {
+    text-align: justify;
+    margin: 15px 0;
+}
+
+#content .body-content .member-list {
+    padding: 32px 0;
+}
+
+#content .body-content .member-list .member {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+}
+
+#content .body-content .member-list .member p {
+    margin: 15px 0;
+}
+
+#content .body-content .member-list .member img {
+    width: 152px;
+}
+
+.calendar {
+    background-color: #fff;
+    color: #757575;
+}
+
+.calendar ul {
+    list-style-type: none;
+} 
+
+.calendar ul li {
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+}
+
+.calendar .out-ticket {
+    background-color: #f44336;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.calendar .quantity {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    float: right;
+    margin-top: -4px;
+}
+
+.body-content .tour-place {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-content .tour-place .tour {
+    width: 245px;
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+}
+
+.body-content .tour-place .tour img {
+    width: 100%
+}
+
+.body-content .tour-place .tour img:hover {
+    opacity: 0.8;
+}
+
+.body-content .tour-place .tour .tour-info {
+    padding: 0 16px;
+}
+
+.body-content .tour-place .tour .tour-info .city {
+    margin: 15px 0;
+    font-weight: bolder;
+}
+
+.body-content .tour-place .tour .tour-info .time {
+    margin: 15px 0;
+}
+
+.body-content .tour-place .tour .tour-info .message {
+    margin: 15px 0;
+}
+
+.dark-button {
+    margin-bottom: 15px;
+    padding: 13px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+.body-content .tour-place .tour .tour-info button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.body-content .contact {
+    width: 49.7%;
+    display: inline-block;
+}
+
+.body-content .contact i {
+    width: 40px;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+
+.body-content .contact .contact-field {
+    width: 49%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.body-content .contact .contact-field-full {
+    width: 99%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.map img {
+    width: 100%;
+}
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .author {
+    margin: 20px;
+}
+
+#footer .icon-social i {
+    font-size: 25px;
+}
+
+#footer .icon-social i:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,25 @@
+HTML
+    Attribute
+CSS
+    CSS selector: https://www.w3schools.com/cssref/css_selectors.php
+    Variable: sử dụng common các giá trị của css
+    Đơn vị
+        Tuyệt đối: px, ...
+        Tương đối: %, rem, em, vw, vh, ...
+    Reset CSS: marging, pading = 0
+    CSS functions: var(), rgba(), rgb(), calc(), attr()
+    Pseudo class CSS: :root, :hover, :active, :first-child, :last-child, ...
+    Pseudo element CSS: ::before, ::after, ::first-letter, ::fist-line, ...
+Box-sizing: Gộp padding, margin và border thành 1 khối thống nhất (border-box)
+Background: https://developer.mozilla.org/fr/docs/Web/CSS/background
+Position
+    Relative: Vị trí so với chính nó
+    Absolute: Vị trí so với thẻ cha gần nhất có thuộc tính position (không quan trong giá trị)
+    Fixed: Vị trí so với cửa sổ trình duyệt
+    Sticky: Vị trí trong cửa số thì hiển thị bình thường, trường hợp không nằm trong cửa số thì dính lên trên 
+TIP
+    Canh giữa
+        Canh giữa theo chiều ngang: text-align, flex (justify-content), absolute + transform
+        Canh giữa theo chiều dọc: line-height, flex (align-items), absolute + transform
+    Xử lý ảnh lỗi: attribute onerror cho img tag, backgroud-image lấy ảnh thứ 2 nếu ảnh thứ 1 lỗi
+    srcset: hiển thị hình ảnh tùy theo kích thước màn hình https://www.youtube.com/watch?v=Cgn82mchbgM
